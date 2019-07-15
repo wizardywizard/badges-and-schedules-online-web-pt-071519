@@ -12,5 +12,6 @@ end
 
 def assign_rooms(names)
   names.each_with_index do |person, num|
+    
   
 end
