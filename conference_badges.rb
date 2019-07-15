@@ -24,4 +24,5 @@ def printer(names)
   badge.each do |person|
     puts person
   end
+  person
 end
