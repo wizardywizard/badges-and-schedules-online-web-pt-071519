@@ -21,7 +21,4 @@ end
 def printer(names)
   badge = batch_badge_creator(name)
   room = assign_rooms(names)
-  badge.each do |person|
-    puts person
-  end
 end
