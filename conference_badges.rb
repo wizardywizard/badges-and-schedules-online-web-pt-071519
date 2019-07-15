@@ -12,7 +12,7 @@ end
 
 def assign_rooms(names)
   names.each_with_index do |person, num|
-    "Hello, #{person}! You'll be assigned to room #{num}!"
+    hello = "Hello, #{person}! You'll be assigned to room #{num}!"
   end
-  
+  hello
 end
