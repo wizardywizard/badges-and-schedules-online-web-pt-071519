@@ -4,5 +4,7 @@ end
 
 def batch_badge_creator(names)
   batch = []
-  badge_maker(name)
+  names.each do |person|
+    badge_maker << batch
+  end
 end
